@@ -1,0 +1,43 @@
+version: '3.9'
+
+x-common:
+  &common
+  build:
+    context: .
+    dockerfile: Dockerfile
+  volumes:
+    - ./logs:/app/logs
+    - .env:/.env
+  environment:
+    &common-env
+    TZ: "Asia/Shanghai"
+
+services:
+  tali_server:
+    <<: *common
+    command: [ "uvicorn", "app.main:app", "--host", "0.0.0.0","--port", "8002" ]
+    ports:
+      - "8002:8002"
+    restart: always
+    networks:
+      - testnet
+    environment:
+      <<: *common-env
+  
+  web_server:
+    <<: *common
+    command: [ "python3", "web/webui.py", "--host", "0.0.0.0", "--port", "8003" ]
+    ports:
+      - "8003:8003"
+    restart: always
+    depends_on:
+      tali_server:
+        condition: service_started
+    networks:
+      - testnet
+    environment:
+      <<: *common-env
+
+networks:
+  testnet:
+    driver: bridge

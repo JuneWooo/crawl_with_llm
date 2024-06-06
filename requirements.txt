@@ -1,0 +1,14 @@
+uvicorn
+fastapi
+pydantic==2.7.2
+pydantic_core==2.18.3
+pydantic_settings==2.2.1
+requests
+langchain==0.1.20
+langchain-community==0.0.38
+openai==1.12.0
+loguru
+sse-starlette==2.1.0
+unstructured
+gradio
+beautifulsoup4

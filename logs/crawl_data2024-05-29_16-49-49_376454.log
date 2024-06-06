@@ -1,0 +1,10 @@
+2024-05-29 16:49:56.047 | INFO     | app.utils.tali_spider:crawl_html:50 - 通知公告的url:http://gxt.shaanxi.gov.cn/webfile/tzgg/7190620984758505472.html
+2024-05-29 16:49:56.126 | INFO     | app.utils.tali_spider:crawl_html:46 - 拼接url:http://scjg.xa.gov.cn/xwzx/tzgg/1.html
+2024-05-29 16:49:56.127 | INFO     | app.utils.tali_spider:crawl_html:46 - 拼接url:http://scjg.xa.gov.cn/xwzx/tzgg/1.html
+2024-05-29 16:49:56.127 | INFO     | app.utils.tali_spider:crawl_html:46 - 拼接url:http://scjg.xa.gov.cn/xwzx/tzgg/1784483332254441473.html
+2024-05-29 16:49:56.133 | INFO     | app.utils.tali_spider:crawl_html:46 - 拼接url:http://scjg.xa.gov.cn/xwzx/tzgg/1784483332254441473.html
+2024-05-29 16:49:56.141 | INFO     | app.utils.tali_spider:crawl_html:46 - 拼接url:http://scjg.xa.gov.cn/xwzx/tzgg/2.html
+2024-05-29 16:49:56.142 | INFO     | app.utils.tali_spider:crawl_html:46 - 拼接url:http://scjg.xa.gov.cn/xwzx/tzgg/3.html
+2024-05-29 16:49:56.142 | INFO     | app.utils.tali_spider:crawl_html:46 - 拼接url:http://scjg.xa.gov.cn/xwzx/tzgg/2.html
+2024-05-29 16:49:56.142 | INFO     | app.utils.tali_spider:crawl_html:46 - 拼接url:http://scjg.xa.gov.cn/xwzx/tzgg/1.html
+2024-05-29 16:49:56.142 | INFO     | app.utils.tali_spider:crawl_html:46 - 拼接url:http://scjg.xa.gov.cn/xwzx/tzgg/1784483332254441473.html
